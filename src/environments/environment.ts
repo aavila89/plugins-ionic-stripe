@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: true,
+  stripe: {
+    api: 'http://IP:PORT/',
+    publishableKey: 'pk_test_',
+    secretKey: 'sk_test_'
+  }
 };
 
 /*
